@@ -7,5 +7,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+      import: app/src/display/Kconfig
+      import: app/src/display/widgets/Kconfig
   self:
     path: config
